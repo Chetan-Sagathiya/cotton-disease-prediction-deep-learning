@@ -1,0 +1,12 @@
+cached-property==1.5.2
+click==7.1.2
+Flask==1.1.2
+h5py==3.2.1
+itsdangerous==1.1.0
+Jinja2==2.11.3
+Keras==2.4.3
+MarkupSafe==1.1.1
+numpy==1.20.2
+PyYAML==5.4.1
+scipy==1.6.2
+Werkzeug==1.0.1
