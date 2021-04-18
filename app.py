@@ -21,7 +21,6 @@ if __name__ == '__main__':
 def upload():
     if request.method == 'POST':
         file = request.files['file']
-        print("method executed now............", file.__dict__)
 
         basepath = os.path.dirname(__file__)
         file_path = os.path.join(
@@ -34,5 +33,16 @@ def upload():
         x = np.expand_dims(image_arr, axis=0)
         pred = model.predict(x)
         pred = np.argmax(pred, axis=1)
-        print("********************************", pred)
-    return "result,"
+        pred = get_prediction(pred)
+    return pred
+
+def get_prediction(pred):
+    if pred==0:
+        pred="The leaf is diseased cotton leaf"
+    elif pred==1:
+        pred="It is diseased cotton plant"
+    elif pred==2:
+        pred="The leaf is fresh cotton leaf"
+    else:
+        pred="It is fresh cotton plant"
+    return pred
