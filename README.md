@@ -1,5 +1,5 @@
 # cotton-disease-prediction-deep-learning
-##Predicting if Cotton is Fresh or has Disease using Deep Learning.
+## Predicting if Cotton is Fresh or has Disease using Deep Learning.
 
 ## Home Page
 
