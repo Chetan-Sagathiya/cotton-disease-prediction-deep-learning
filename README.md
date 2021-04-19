@@ -1,6 +1,8 @@
 # cotton-disease-prediction-deep-learning
 ## Predicting if Cotton is Fresh or has Disease using Deep Learning.
 
+### youtube: https://www.youtube.com/watch?v=_fQB3NQq4zk
+
 ## Home Page
 
 ![image_1](https://user-images.githubusercontent.com/78957536/115135665-bd081100-a037-11eb-8075-01ea5da8fc3a.png)
